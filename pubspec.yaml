@@ -10,6 +10,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Core
+  assets:
+    path: lib_assets
+  core:
+    path: lib_core
+
   # Features
   feature_home:
     path: lib_feature_home

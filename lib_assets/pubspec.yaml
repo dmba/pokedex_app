@@ -1,5 +1,5 @@
-name: feature_splash
-description: App splash feature
+name: assets
+description: App core module
 version: 0.0.1
 author:
 homepage:
@@ -10,13 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  assets:
-    path: ../lib_assets
-  core:
-    path: ../lib_core
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
+  assets:
+    - lib/assets/splash/
