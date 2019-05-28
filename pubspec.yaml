@@ -9,15 +9,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^0.1.2
-  # features
+
+  # Features
   feature_home:
     path: lib_feature_home
+  feature_splash:
+    path: lib_feature_splash
+  feature_pokemon:
+    path: lib_feature_pokemon
+  feature_pokemons:
+    path: lib_feature_pokemons
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
 flutter:
-  uses-material-design: true
