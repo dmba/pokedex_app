@@ -6,7 +6,15 @@ class SplashPage extends StatelessWidget {
   const SplashPage();
 
   @override
-  Widget build(BuildContext context) {
-    return Image(image: imgBgSplash);
-  }
+  Widget build(BuildContext context) => Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: gradientBgMain,
+          ),
+          image: DecorationImage(
+            image: imgBgSplash,
+            fit: BoxFit.cover,
+          ),
+        ),
+      );
 }
