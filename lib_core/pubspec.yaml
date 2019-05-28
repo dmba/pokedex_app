@@ -1,0 +1,21 @@
+name: core
+description: App core module
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: any
+  quiver: any
+  rxdart: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
